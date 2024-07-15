@@ -1,0 +1,55 @@
+import React from "react";
+import "../App.css";
+
+const Aboutus = () => {
+  return (
+    <div
+      id="about"
+      className="mt-20 p-20 bg-gray-50 dark:bg-slate-900 dark:text-white"
+    >
+      <div className="bg-slate-200 h-20 rounded-2xl dark:bg-slate-600 dark:text-white">
+        <div className="text-2xl pt-4 font-sans font-bold border-b-4  dark:border-b-white w-56  border-b-black mb-20 ml-20 ">
+          About Me
+        </div>
+      </div>
+
+      <div className="flex justify-center gap-20 items-center mt-[50px]">
+        {/* img */}
+        <div className="About-1 my-4"></div>
+
+        {/* text */}
+        <div className=" w-[32rem]">
+          <div className="text-2xl font-bold my-2 text-left">
+            My Self Karthik "
+          </div>
+          <div className="ml-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            accusantium eveniet delectus voluptas dolores a aspernatur
+            necessitatibus, eaque dignissimos iure voluptate veniam
+            reprehenderit tempore perspiciatis minima neque praesentium at
+            temporibus. Quas possimus cumque, unde repellat expedita esse neque
+            explicabo at voluptatibus maiores, sunt qui. Minima hic cumque,
+            fugit sequi accusantium velit! Nisi nobis molestias esse, amet nam
+            molestiae animi earum natus et fugiat quis illo blanditiis veritatis
+            quibusdam. Et minus esse inventore nostrum eos aspernatur deserunt,
+            voluptatibus maiores dicta obcaecati error quia quae impedit
+            suscipit a enim excepturi nemo, tempora autem molestias. Magni
+            necessitatibus error eos. Praesentium ducimus quo placeat.
+          </div>
+          <div className="flex justify-center items-center gap-20 gap-x-auto mt-8 m-auto">
+              <a href="#skills" className=" flex justify-center items-center">
+            <button className="border hover:bg-opacity-80 hover:px-9 hover:py-4 bg-blue-600 px-8 py-4 rounded-full text-white font-sans font-bold text-lg">
+              Skiils
+            </button>
+              </a>
+            <button className="border hover:bg-opacity-80 hover:px-9 hover:py-4 bg-green-600 px-8 py-4 rounded-full text-white font-sans font-bold text-lg">
+              Resume
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Aboutus;
