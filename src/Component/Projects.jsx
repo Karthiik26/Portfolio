@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
+import tailor from "../../src/assets/tail.png"
+import ecomm from "../../src/assets/image3.png"
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useNavigate } from "react-router-dom";
@@ -156,7 +158,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={"src\assets\tailor1.png"}
+                  src={tailor}
                   alt="Img Not Found"
                   width={600}
                   className="border-2 border-gray-800 rounded-lg"
@@ -207,7 +209,7 @@ const Projects = () => {
           <div data-aos-duration="2000" data-aos="fade-up">
             <div className="w-auto my-4 py-6 px-4 shadow-xl shadow-gray-400 rounded-lg h-[500px] animate-flyinBottom">
               <img
-                src={"src\assets\image3.png"}
+                src={ecomm}
                 alt="Img Not Found"
                 width={600}
                 className="border-2 border-gray-800 rounded-lg"
@@ -245,6 +247,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
       </div>
 
       <div className="flex justify-center items-center gap-5 mx-auto py-14 dark:bg-slate-600 bg-slate-100">
