@@ -5,6 +5,10 @@ import { IoCall } from "react-icons/io5";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useNavigate } from "react-router-dom";
+import Todoimg from '../assets/image2.png'
+import Lectureimg from '../assets/image.png'
+import TailorImg from '../assets/tailor1.png'
+import EcomImg from '../assets/image3.png'
 
 const Projects = () => {
 
@@ -39,7 +43,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="../src/assets/image2.png"
+                  src={Todoimg}
                   alt="Img Not Found"
                   width={600}
                   className="border-2 border-gray-800 rounded-lg"
@@ -95,7 +99,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="../src/assets/image.png"
+                  src={Lectureimg}
                   alt="Img Not Found"
                   width={630}
                   className="border-2 border-gray-800 rounded-lg"
@@ -154,7 +158,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="../src/assets/tailor1.png"
+                  src={TailorImg}
                   alt="Img Not Found"
                   width={600}
                   className="border-2 border-gray-800 rounded-lg"
@@ -205,7 +209,7 @@ const Projects = () => {
           <div data-aos-duration="2000" data-aos="fade-up">
             <div className="w-auto my-4 py-6 px-4 shadow-xl shadow-gray-400 rounded-lg h-[500px] animate-flyinBottom">
               <img
-                src="../src/assets/image3.png"
+                src={EcomImg}
                 alt="Img Not Found"
                 width={600}
                 className="border-2 border-gray-800 rounded-lg"
