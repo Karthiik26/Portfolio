@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaArrowAltCircleLeft } from "react-icons/fa";
 import Togglebtn from "./ToggleBtn";
 import { useLocation, useNavigate } from "react-router-dom";
+import img from "../assets/contact1.png"
 
 const Contact = () => {
   const { pathname } = useLocation();
@@ -43,7 +44,7 @@ const Contact = () => {
               <div className="text-md font-sans font-bold tracking-wide">Let's connect and turn your ideas into reality!</div>
               <div className="flex justify-center items-center flex-row gap-6">
                 <div>
-                  <img src="src\assets\Contact.png" width={450} alt="" />
+                  <img src={img} width={450} alt="" />
                 </div>
                 <div className="mt-1 mb-16">
                   <form>
