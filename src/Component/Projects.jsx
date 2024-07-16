@@ -156,7 +156,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="../assets/tailor1.png"
+                  src={"src\assets\tailor1.png"}
                   alt="Img Not Found"
                   width={600}
                   className="border-2 border-gray-800 rounded-lg"
@@ -207,7 +207,7 @@ const Projects = () => {
           <div data-aos-duration="2000" data-aos="fade-up">
             <div className="w-auto my-4 py-6 px-4 shadow-xl shadow-gray-400 rounded-lg h-[500px] animate-flyinBottom">
               <img
-                src="../assets/image3.png"
+                src={"src\assets\image3.png"}
                 alt="Img Not Found"
                 width={600}
                 className="border-2 border-gray-800 rounded-lg"
