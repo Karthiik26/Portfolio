@@ -60,7 +60,7 @@ const Home = () => {
           data-aos="fade-up"
           data-aos-duration="2500"
         >
-          <div className="">I Am KARTHIIK</div>
+          <div className="">I Am Karthik</div>
         </div>
         <div
           className="font-bold font-sans text-[16px] my-2 text-center tracking-wider leading-7"
@@ -68,8 +68,8 @@ const Home = () => {
           data-aos-duration="2500"
         >
           <div>
-            A <b className="text-[19px]">Full Stack Web Developer</b> and{" "}
-            <b className="text-[19px]">Web Designer</b>. Explore my projects,
+            A <b className="text-[19px]">Full Stack Web Developer</b> and 
+            <b className="text-[19px]"> Web Designer</b>. Explore my projects,
             designs, and journey in web development. Discover my skills and
             Projects, and let's create something amazing together!
           </div>

@@ -21,13 +21,13 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center gap-12 mt-28">
+      <div className="flex justify-center items-center gap-12 mt-20">
         <div data-aos="fade-up" data-aos-duration="2000">
           <div className="py-10 px-10 w-[350px] border-2 shadow-gray-500 shadow-2xl rounded-2xl text-center animate-flyinBottom">
             <div className="text-blue-700 font-bold font-sans text-[22px]">
               Web Design
             </div>
-            <div className="text-gray-700 p-2 mx-1 dark:text-white">
+            <div className="text-gray-700 p-2 mx-1 dark:text-white font-semibold text-md">
               Design is where I experiment, innovate, and create unique visuals
               before I start developing.
             </div>
@@ -39,7 +39,7 @@ const Skills = () => {
             <div className="text-blue-700 font-bold font-sans text-[22px]">
               Web Development
             </div>
-            <div className="text-gray-700 p-2 mx-2 dark:text-white">
+            <div className="text-gray-700 p-2 mx-2 dark:text-white font-semibold text-md">
               I am a Full Stack Web Developer proficient in MERN and MEAN
               stacks.
             </div>
@@ -51,7 +51,7 @@ const Skills = () => {
             <div className="text-blue-700 font-bold font-sans text-[22px]">
               Problem Solving
             </div>
-            <div className="text-gray-700 p-2 mx-1 dark:text-white">
+            <div className="text-gray-700 p-2 mx-1 dark:text-white font-semibold text-md ">
               I love solving problems whether programming problems or real life
               problems.
             </div>
