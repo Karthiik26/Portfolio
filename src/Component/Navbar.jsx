@@ -6,15 +6,15 @@ import Togglebtn from "./ToggleBtn";
 
 const Navbar = () => {
   const { pathname } = useLocation();
-  const [Dark, setDark] = useState();
+  const [Dark, setDark] = useState(true);
   const [PathName, SetPathName] = useState();
 
   function ToggleDarkmode() {
     const x = localStorage.getItem("darkMode");
     setDark(x);
     if (Dark === "true") {
+      console.log("--------" + Dark);
     }
-    console.log("--------" + Dark);
   }
 
   useEffect(()=>{
