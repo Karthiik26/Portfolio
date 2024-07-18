@@ -6,7 +6,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Navbar from "./Navbar";
+import HomeImg from "../assets/Computer2.png";
 import { useLocation } from "react-router-dom";
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
     <>
       {/* <Navbar/> */}
       {/* Home wave */}
-      <div className="mt-2"  id="Home" >
+      <div className="mt-2" id="Home">
         <div className="flex justify-center items-center dark:bg-slate-900 dark:text-white">
           <div className="custom bg-blue-500 bg-gradient-to-b from-white dark:from-12% to-red-400 to-90% dark:bg-gradient-to-b dark:from-slate-900 dark:from-12% dark:to-red-200 dark:to-90%">
             <svg
@@ -42,49 +42,47 @@ const Home = () => {
         </div>
       </div>
 
-      <div  className="bg-transparent dark:bg-transparent mx-28 mt-[50px]">
-        <div
-          className="font-extrabold font-sans text-5xl tracking-widest"
-          data-aos="fade-up"
-          data-aos-duration="2500"
-        >
-          <div className="text-5xl">Hello</div>
-          <div className="ml-40 text-5xl">&</div>
-          <div className="ml-[200px] mt-1">WELCOME</div>
-        </div>
-      </div>
-
-      <div className="mt-[60px] float-right mx-12 w-[430px]">
-        <div
-          className=" font-extrabold text-center text-5xl font-sans tracking-wider"
-          data-aos="fade-up"
-          data-aos-duration="2500"
-        >
-          <div className="">I Am Karthik</div>
-        </div>
-        <div
-          className="font-bold font-sans text-[16px] my-2 text-center tracking-wider leading-7"
-          data-aos="fade-up"
-          data-aos-duration="2500"
-        >
-          <div>
-            A <b className="text-[19px]">Full Stack Web Developer</b> and 
-            <b className="text-[19px]"> Web Designer</b>. Explore my projects,
-            designs, and journey in web development. Discover my skills and
-            Projects, and let's create something amazing together!
+        <div className="bg-transparent dark:bg-transparent mx-20 flex justify-between items-center">
+          <div className="mt-[50px] float-left flex flex-col justify-start w-[480px]">
+            <div
+              className=" font-extrabold text-left text-5xl font-sans tracking-wider"
+              data-aos="fade-up"
+              data-aos-duration="2500"
+            >
+              <div className="">
+                Hello" <br /> I Am Karthik
+              </div>
+            </div>
+            <div
+              className="font-bold font-sans text-[16px] my-2 text-left tracking-wider leading-7"
+              data-aos="fade-up"
+              data-aos-duration="2500"
+            >
+              <div>
+                A <b className="text-[19px]">Full Stack Web Developer</b> and
+                <b className="text-[19px]"> Web Designer</b>. Explore my
+                projects, designs, and journey in web development. Discover my
+                skills and Projects, and let's create something amazing
+                together!
+              </div>
+            </div>
+          </div>
+          <div data-aos="zoom-out-down" data-aos-duration="2500">
+            <div className="mt-20 relative About-2"></div>
           </div>
         </div>
-      </div>
 
-      {/* arrow button */}
-      <div className="flex justify-center items-center mt-[300px] rounded-full ">
-        <a
-          href="#about"
-          className="bg-black text-white dark:bg-white dark:text-black border-2 p-5 rounded-full my-6 animate-bounce-slow shadow-2xl hover:border-4 hover:border-red-200"
-        >
-          <FaArrowDownLong size={28} />
-        </a>
-      </div>
+        {/* arrow button */}
+        <div data-aos="fade-up" data-aos-duration="2500">
+          <div className="flex justify-center items-center rounded-full ">
+            <a
+              href="#about"
+              className="bg-black text-white dark:bg-white dark:text-black border-2 p-5 rounded-full my-6 animate-bounce-slow shadow-2xl hover:border-4 hover:border-red-200"
+            >
+              <FaArrowDownLong size={28} />
+            </a>
+          </div>
+        </div>
 
       {/* About Us */}
       <Aboutus />

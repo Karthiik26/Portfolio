@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="w-full max-w-full h-40 py-5 border-t-2 dark:border-t-white border-t-black border-b-white">
         <div>
           <div data-aos="zoom-in" data-aos-duration="1500">
-            <div className="text-xl font-bold text-center mt-4 animate-flyinBottom2">
+            <div className="text-xl font-bold text-right mx-12 mt-4 animate-flyinBottom2">
               Let's Connect DIGITALLY........
             </div>
           </div>

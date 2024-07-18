@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
-import tailor from "../../src/assets/tail.png"
-import ecomm from "../../src/assets/image3.png"
+import tailor from "../../src/assets/tail.png";
+import ecomm from "../../src/assets/image3.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useNavigate } from "react-router-dom";
@@ -11,8 +11,7 @@ import Todoimg from "../assets/image2.png";
 import Lectureimg from "../assets/image.png";
 
 const Projects = () => {
-
-  const nav=useNavigate();
+  const nav = useNavigate();
 
   useEffect(() => {
     Aos.init();
@@ -247,25 +246,25 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
       </div>
 
-      <div className="flex justify-center items-center gap-5 mx-auto py-14 dark:bg-slate-600 bg-slate-100">
-        <div           data-aos="zoom-out"
-          data-aos-duration="2000" >
-        <button onClick={()=>nav('/Contact')} className="flex px-10 py-4 items-center gap-3 font-sans font-bold hover:bg-rose-200 hover:border-blue-500 hover:text-blue-500 bg-rose-500 text-gray-200 rounded-lg text-center text-xl border border-rose-700">
-          Contact <IoCall />
-        </button>
-        
+      <div className="bg-[url('../src/assets/code.png')] bg-fixed text-center mx-auto py-14 dark:bg-slate-600 bg-slate-100">
+        <div data-aos="zoom-out" data-aos-duration="3000">
+          <button
+            onClick={() => nav("/Contact")}
+            className="flex justify-center px-10 py-4 items-center gap-3 mx-20 font-sans font-bold hover:bg-rose-200 hover:border-blue-500 hover:text-blue-500 bg-rose-500 text-gray-200 rounded-lg text-right text-xl border border-rose-700"
+          >
+            Contact <IoCall />
+          </button>
         </div>
       </div>
 
-      <div className="dark:bg-slate-900 dark:text-white flex justify-center items-center m-auto py-20 bg-slate-200">
+      <div className="dark:bg-slate-900 dark:text-white flex justify-center items-center py-20 bg-slate-200">
         <div
           id="ThankYou"
           className="animate-pulse"
           data-aos="fade-right"
-          data-aos-duration="2300"
+          data-aos-duration="2500"
         >
           <div className="text-2xl font-sans font-bold ">
             Thank You For Scrolling

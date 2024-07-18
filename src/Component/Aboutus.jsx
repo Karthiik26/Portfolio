@@ -24,38 +24,44 @@ const Aboutus = () => {
           </div>
         </div>
 
-        <div className="flex justify-center gap-20 items-center mt-[50px]">
+        <div className="flex justify-center gap-20 items-center mt-[50px] mx-20">
           {/* img */}
           <div data-aos="zoom-out-down" data-aos-duration="2500">
             <div className="About-1 my-4"></div>
           </div>
 
           {/* text */}
-          <div className=" w-[32rem]">
-            <div className="text-2xl font-bold my-2 text-left animate-flyinBottom1">
+          <div className=" w-auto">
+            <div className="text-2xl font-bold mb-3 text-left">
               <div data-aos="fade-left" data-aos-duration="1700">
-                My Self Karthik
+                My Name Is Karthik Nagula
               </div>
             </div>
 
-            <div data-aos="fade-up" data-aos-duration="2500">
-              <div className="ml-5 animate-flyinBottom1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                accusantium eveniet delectus voluptas dolores a aspernatur
-                necessitatibus, eaque dignissimos iure voluptate veniam
-                reprehenderit tempore perspiciatis minima neque praesentium at
-                temporibus. Quas possimus cumque, unde repellat expedita esse
-                neque explicabo at voluptatibus maiores, sunt qui. Minima hic
-                cumque, fugit sequi accusantium velit! Nisi nobis molestias
-                esse, amet nam molestiae animi earum natus et fugiat quis illo
-                blanditiis veritatis quibusdam. Et minus esse inventore nostrum
-                eos aspernatur deserunt, voluptatibus maiores dicta obcaecati
-                error quia quae impedit suscipit a enim excepturi nemo, tempora
-                autem molestias. Magni necessitatibus error eos. Praesentium
-                ducimus quo placeat.
+            <div className="ml-4 tracking-wider mt-8">
+              <div data-aos="fade-up" data-aos-duration="3000">
+                <div className="text-lg text-left font-medium indent-8 leading-7">
+                  I am a recent graduate with a Bachelor of Science in
+                  Information Technology from BNN College. I am from Bhiwandi
+                  and passionate about Full Stack Web Development, eager to dive
+                  into the world of web technologies. My interest lies in
+                  crafting efficient, user-friendly web applications and
+                  bringing innovative ideas to life through code. As a fresher,
+                  I am enthusiastic about learning new technologies and
+                  continuously improving my skills to deliver high-quality
+                  solutions.
+                </div>
+                <div className="my-4 tracking-wider text-xl font-bold">
+                  "The only way to do great work is to love what you do."
+                </div>
+                <div className="text-lg text- font-medium leading-7">
+                  I am excited to contribute to projects that make a difference
+                  and look forward to growing professionally in the dynamic
+                  field of web development.
+                </div>
               </div>
             </div>
-            <div className="flex justify-center items-center gap-20 gap-x-auto mt-4 m-auto animate-flyinBottom1">
+            <div className="flex justify-center items-center gap-20 gap-x-auto mt-10 m-auto animate-flyinBottom1">
               <a data-aos="zoom-in-up" data-aos-duration="1500" href="#skills">
                 <button className="border hover:bg-opacity-80 bg-blue-600 px-8 py-4 rounded-full text-white font-sans font-bold text-lg">
                   Skiils
