@@ -41,9 +41,9 @@ const Aboutus = () => {
             <div className="ml-4 tracking-wider mt-8">
               <div data-aos="fade-up" data-aos-duration="3000">
                 <div className="text-lg text-left font-medium indent-8 leading-7">
-                  I am a recent graduate with a Bachelor of Science in
-                  Information Technology from BNN College. I am from Bhiwandi
-                  and passionate about Full Stack Web Development, eager to dive
+                  I am a recent graduate with a <b> Bachelor of Science in
+                  Information Technology </b> from BNN College. I am from Bhiwandi
+                  and passionate about <b>Full Stack Web Development</b>, eager to dive
                   into the world of web technologies. My interest lies in
                   crafting efficient, user-friendly web applications and
                   bringing innovative ideas to life through code. As a fresher,
@@ -64,7 +64,7 @@ const Aboutus = () => {
             <div className="flex justify-center items-center gap-20 gap-x-auto mt-10 m-auto animate-flyinBottom1">
               <a data-aos="zoom-in-up" data-aos-duration="1500" href="#skills">
                 <button className="border hover:bg-opacity-80 bg-blue-600 px-8 py-4 rounded-full text-white font-sans font-bold text-lg">
-                  Skiils
+                  Skills
                 </button>
               </a>
               <div data-aos="zoom-in-up" data-aos-duration="1800">
