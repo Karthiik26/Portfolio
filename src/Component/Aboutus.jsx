@@ -61,6 +61,7 @@ const Aboutus = () => {
                 </div>
               </div>
             </div>
+            
             <div className="flex justify-center items-center gap-20 gap-x-auto mt-10 m-auto animate-flyinBottom1">
               <a data-aos="zoom-in-up" data-aos-duration="1500" href="#skills">
                 <button className="border hover:bg-opacity-80 bg-blue-600 px-8 py-4 rounded-full text-white font-sans font-bold text-lg">

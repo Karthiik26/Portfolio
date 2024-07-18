@@ -25,7 +25,8 @@ const Navbar = () => {
   return (
     <>
     {
-      PathName === '/' ? (<div className="w-full max-w-full bg-white bg-transparent h-auto py-2 sticky top-0 opacity-95 z-40 dark:opacity-95 dark:bg-slate-900 dark:text-white">
+      PathName === '/' ? 
+      (<div className=" w-full max-w-full bg-white bg-transparent h-auto py-2 sticky top-0 opacity-95 z-40 dark:opacity-95 dark:bg-slate-900 dark:text-white">
         <div className="flex justify-between items-center mx-auto">
           <div className="mx-4">
             <div className="text-left font-extrabold font-sans text-lg">
