@@ -21,9 +21,9 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center gap-12 mt-20">
+      <div className="flex justify-center items-center gap-12 mt-[70px]">
         <div data-aos="fade-up" data-aos-duration="2000">
-          <div className="py-10 px-10 w-[350px] border-2 shadow-gray-500 shadow-2xl rounded-2xl text-center animate-flyinBottom">
+          <div className="py-10 px-10 w-[350px] border-2 shadow-gray-500 shadow-2xl rounded-2xl text-center">
             <div className="text-blue-700 font-bold font-sans text-[22px]">
               Web Design
             </div>
@@ -35,7 +35,7 @@ const Skills = () => {
         </div>
 
         <div data-aos="fade-up" data-aos-duration="2000">
-          <div className="py-10 px-10 w-[350px] border-2 shadow-gray-500 shadow-2xl rounded-2xl text-center animate-flyinBottom1">
+          <div className="py-10 px-10 w-[350px] border-2 shadow-gray-500 shadow-2xl rounded-2xl text-center">
             <div className="text-blue-700 font-bold font-sans text-[22px]">
               Web Development
             </div>
@@ -47,7 +47,7 @@ const Skills = () => {
         </div>
 
         <div data-aos="fade-up" data-aos-duration="2000">
-          <div className="py-10 px-10 w-[350px] border-2 shadow-gray-500 shadow-2xl rounded-2xl text-center animate-flyinBottom1">
+          <div className="py-10 px-10 w-[350px] border-2 shadow-gray-500 shadow-2xl rounded-2xl text-center">
             <div className="text-blue-700 font-bold font-sans text-[22px]">
               Problem Solving
             </div>

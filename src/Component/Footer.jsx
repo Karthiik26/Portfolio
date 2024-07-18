@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { FaSquareGithub } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -60,6 +61,16 @@ const Footer = () => {
                 target="blank"
               >
                 <SiGmail size={22} />
+              </a>
+              <a
+                data-aos="fade-"
+                data-aos-duration="2000"
+                className="animate-flyinBottom2 hover:bg-gray-600 dark:hover:bg-white dark:hover:text-green-600 hover:text-green-400 bg-green-500 rounded-full hover:rounded-full p-3"
+                href="https://wa.me/7385494029"
+                aria-label="Chat on WhatsApp"
+                target="blank"
+              >
+                <FaWhatsapp size={22} />
               </a>
             </div>
           </div>

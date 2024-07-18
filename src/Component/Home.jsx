@@ -54,16 +54,16 @@ const Home = () => {
               </div>
             </div>
             <div
-              className="font-bold font-sans text-[16px] my-2 text-left tracking-wider leading-7"
+              className="font-bold font-sans text-[16px] my-4 text-left tracking-wider leading-7"
               data-aos="fade-up"
               data-aos-duration="2500"
             >
               <div>
-                A <b className="text-[19px]">Full Stack Web Developer</b> and
-                <b className="text-[19px]"> Web Designer</b>. Explore my
+                <b className="text-[20px] ">Full Stack Web Developer & Web Designer</b>
+                {/* <b className="text-[19px]"> Web Designer</b>. Explore my
                 projects, designs, and journey in web development. Discover my
                 skills and Projects, and let's create something amazing
-                together!
+                together! */}
               </div>
             </div>
           </div>
