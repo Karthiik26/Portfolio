@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 import { useNavigate } from "react-router-dom";
 import Todoimg from "../assets/image2.png";
 import Lectureimg from "../assets/image.png";
+import ChatApp from "../assets/Chatapp.png";
 
 const Projects = () => {
   const nav = useNavigate();
@@ -256,7 +257,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="../src/assets/Chatapp.png"
+                  src={ChatApp}
                   alt="Img Not Found"
                   width={600}
                   className="border-2 border-gray-800 rounded-lg"
