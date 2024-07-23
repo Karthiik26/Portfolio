@@ -268,7 +268,7 @@ const Projects = () => {
                   <div className="text-lg">CHAT APPLICATION PROJECT</div>
                   <div className="text-center font-semibold text-md">
                     {" "}
-                    ( MEAN STACK + SOCKET.IO )
+                    ( MERN STACK + SOCKET.IO )
                   </div>
                 </div>
                 <div className="text-sm font-sans font-semibold text-gray-500">
