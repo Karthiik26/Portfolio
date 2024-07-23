@@ -77,7 +77,7 @@ const Skills = () => {
             <div className="my-2 py-2 px-4 text-lg text-gray-500 rounded-lg hover:text-black hover:border-b-2 hover:border-b-black hover:bg-green-200 ">
               JAVASCRIPT
             </div>
-            <div className="my-2 py-2 px-4 text-lg text-gray-500 rounded-lg hover:text-black hover:border-b-2 hover:border-b-black hover:bg-red-200">
+            <div className="my-2 py-2 px-4 text-lg text-gray-500 rounded-lg hover:text-black hover:border-b-2 hover:border-b-black hover:bg-green-200 ">
               NODE JS
             </div>
           </div>
@@ -100,7 +100,7 @@ const Skills = () => {
             <div className="my-2 py-2 px-4 text-lg text-gray-500 rounded-lg hover:text-black hover:border-b-2 hover:border-b-black hover:bg-red-200">
               SOCKET.IO
             </div>
-            <div className="my-2 py-2 px-4 text-lg text-gray-500 hover:border-b-2 rounded-lg hover:text-black hover:border-b-black hover:bg-blue-200 ">
+            <div className="my-2 py-2 px-4 text-lg text-gray-500 rounded-lg hover:text-black hover:border-b-2 hover:border-b-black hover:bg-red-200">
               EXPRESS JS
             </div>
           </div>
