@@ -120,6 +120,9 @@ const Skills = () => {
               C
             </div>
             <div className="my-2 py-2 px-4 text-lg text-gray-500 hover:border-b-2 rounded-lg hover:text-black hover:border-b-black hover:bg-blue-200 ">
+              PYTHON
+            </div>
+            <div className="my-2 py-2 px-4 text-lg text-gray-500 hover:border-b-2 rounded-lg hover:text-black hover:border-b-black hover:bg-blue-200 ">
               My SQL
             </div>
           </div>
