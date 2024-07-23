@@ -77,14 +77,14 @@ const Skills = () => {
             <div className="my-2 py-2 px-4 text-lg text-gray-500 rounded-lg hover:text-black hover:border-b-2 hover:border-b-black hover:bg-green-200 ">
               JAVASCRIPT
             </div>
+            <div className="my-2 py-2 px-4 text-lg text-gray-500 rounded-lg hover:text-black hover:border-b-2 hover:border-b-black hover:bg-red-200">
+              NODE JS
+            </div>
           </div>
         </div>
 
         <div data-aos="fade-up" data-aos-duration="2000">
           <div className="flex justify-center items-center flex-col">
-            <div className="my-2 py-2 px-4 text-lg text-gray-500 rounded-lg hover:text-black hover:border-b-2 hover:border-b-black hover:bg-red-200">
-              NODE JS
-            </div>
             <div className="my-2 py-2 px-4 text-lg text-gray-500 rounded-lg hover:text-black hover:border-b-2 hover:border-b-black hover:bg-red-200">
               REACT JS
             </div>
@@ -97,15 +97,21 @@ const Skills = () => {
             <div className="my-2 py-2 px-4 text-lg text-gray-500 rounded-lg hover:text-black hover:border-b-2 hover:border-b-black hover:bg-red-200">
               REDUX
             </div>
+            <div className="my-2 py-2 px-4 text-lg text-gray-500 rounded-lg hover:text-black hover:border-b-2 hover:border-b-black hover:bg-red-200">
+              SOCKET.IO
+            </div>
+            <div className="my-2 py-2 px-4 text-lg text-gray-500 hover:border-b-2 rounded-lg hover:text-black hover:border-b-black hover:bg-blue-200 ">
+              EXPRESS JS
+            </div>
           </div>
         </div>
         <div data-aos="fade-left" data-aos-duration="2000">
           <div className="flex justify-center items-center flex-col">
             <div className="my-2 py-2 px-4 text-lg text-gray-500 hover:border-b-2 rounded-lg hover:text-black hover:border-b-black hover:bg-blue-200 ">
-              EXPRESS JS
+              GIT
             </div>
             <div className="my-2 py-2 px-4 text-lg text-gray-500 hover:border-b-2 rounded-lg hover:text-black hover:border-b-black hover:bg-blue-200 ">
-              GIT
+              C++
             </div>
             <div className="my-2 py-2 px-4 text-lg text-gray-500 hover:border-b-2 rounded-lg hover:text-black hover:border-b-black hover:bg-blue-200 ">
               JAVA

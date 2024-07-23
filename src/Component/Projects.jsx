@@ -246,6 +246,54 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
+        <div className="flex justify-center items-center gap-28 flex-row mt-20 max-w-90">
+          <div data-aos-duration="2000" data-aos="fade-up-right">
+            <div className="w-auto my-4 py-6 px-4 shadow-xl shadow-gray-400 rounded-lg h-[500px] animate-flyinBottom">
+              <a
+                href="https://karthik-chatapp.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../src/assets/Chatapp.png"
+                  alt="Img Not Found"
+                  width={600}
+                  className="border-2 border-gray-800 rounded-lg"
+                />
+              </a>
+              <div className="flex justify-center items-center flex-col mx-2 mt-2 gap-2">
+                <div className="font-sans font-bold text-center my-4">
+                  <div className="text-lg">CHAT APPLICATION PROJECT</div>
+                  <div className="text-center font-semibold text-md">
+                    {" "}
+                    ( MEAN STACK + SOCKET.IO )
+                  </div>
+                </div>
+                <div className="text-sm font-sans font-semibold text-gray-500">
+                  Users Can Interact With The Registered Users.
+                </div>
+              </div>
+              <div className="ml-12 flex gap-6 mt-3">
+                <a
+                  className="p-2 hover:bg-slate-700 hover:text-white rounded-full"
+                  href="https://github.com/Karthiik26/CHAT_APP"
+                  target="blank"
+                  title="CHAT APP FrontEnd & BackEnd"
+                >
+                  <FaGithub size={18} />
+                </a>
+                <a
+                  className="p-2 hover:bg-slate-700 hover:text-white rounded-full"
+                  href="https://karthik-chatapp.netlify.app/"
+                  target="blank"
+                >
+                  <FaLink size={18} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="bg-[url('../src/assets/code.png')] bg-fixed py-14 dark:bg-slate-600 bg-slate-100">
